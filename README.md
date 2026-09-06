@@ -10,9 +10,9 @@
 
 Imagine you want to open a restaurant in Hawaii. Before committing anything, you would want to know: **what business attributes are associated with a higher Google rating, and does location matter?**
 
-This project investigates: *if I am a prospective restaurant owner in Hawaii, what makes a restaurant successful (measured by average Google rating), and how does this influence by price point, cuisine style, and zip code?* Anyone thinking about opening a restaurant should care about this question, since it turns scattered Google reviews into concrete patterns.
+This project investigates: *if I am a prospective restaurant owner in Hawaii, what makes a restaurant successful (measured by its average Google rating), and how is this influenced by price point, cuisine style, and zip code?* Anyone thinking about opening a restaurant should care about this question, since it turns scattered Google reviews into concrete patterns.
 
-I use the **Hawaii Google Maps Reviews** dataset (`meta-Hawaii.json`), which contains **21,507 businesses** across Hawaii from Google Maps. I didn't use the review-level file in this analysis because the business-level file already contains everything my question and prediction need (category, price, location, amenities, and the outcome, `avg_rating`, itself).
+I use the **Hawaii Google Maps Reviews** dataset (`meta-Hawaii.json`), which contains **21,507 businesses** across Hawaii from Google Maps. I don't use the review-level file in this analysis because the business-level file already contains everything my question and prediction need (category, price, location, amenities, and the outcome, `avg_rating`, itself).
 
 Restaurants are the largest business type in the dataset (4,301 of 21,507 businesses, 20%), so I restrict the analysis to businesses whose category tags contain the word "restaurant".
 
