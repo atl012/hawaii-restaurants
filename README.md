@@ -1,6 +1,6 @@
 # What Makes a Hawaii Restaurant a 5-Star Success?
 
-**By**: (add your name(s) here)
+**By**: Athena Lin
 
 *DSC 80 Final Project*
 
